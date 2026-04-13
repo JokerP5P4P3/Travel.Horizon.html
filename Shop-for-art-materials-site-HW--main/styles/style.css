@@ -1,0 +1,93 @@
+div.flex-container 
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #e8f4f8;
+    margin-left: 160px;
+    margin-bottom: 0px;
+    margin-right: 0px; /* Same as the width of the sidebar */
+}
+
+div.flex-container > div.main
+{
+    font-size: large;
+    padding-right: 200px;
+}
+
+div.flex-container > div 
+{
+  margin: 10px;
+}
+
+h1
+{
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    background-color: #2e8b57;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+h2
+{
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    background-color: #2e8b57;
+    text-transform: uppercase;
+}
+
+body
+{
+    margin: 0px;
+}
+
+.sidenav 
+{
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #1a6b8a; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.sidenav a 
+{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #d0eaf5;
+    display: block;
+}
+
+.sidenav a:hover 
+{
+    color: #fffdfa;
+}
+
+div.flex-container > div.pics
+{
+    padding-bottom: 10px;
+}
+
+img
+{
+    vertical-align: top;
+    background-color:  #cce8f4;
+    border-radius: 40px;
+    padding: 20px;
+}
